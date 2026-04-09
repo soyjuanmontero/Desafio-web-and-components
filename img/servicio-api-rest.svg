@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="320" viewBox="0 0 180 140">
+  <rect width="180" height="140" fill="#0d1f3c"/>
+  <rect x="25" y="18" width="130" height="104" rx="8" fill="#071428" stroke="#378ADD" stroke-width="1"/>
+  <rect x="25" y="18" width="130" height="22" rx="8" fill="#0c1e38"/>
+  <rect x="25" y="32" width="130" height="8" fill="#0c1e38"/>
+  <circle cx="36" cy="29" r="4" fill="#E24B4A"/>
+  <circle cx="48" cy="29" r="4" fill="#EF9F27"/>
+  <circle cx="60" cy="29" r="4" fill="#639922"/>
+  <rect x="35" y="50" width="110" height="7" rx="2" fill="#0f2a4a"/>
+  <text x="35" y="48" font-size="7" fill="#378ADD" font-family="monospace">GET /api/users</text>
+  <rect x="35" y="62" width="80" height="5" rx="2" fill="#071e38"/>
+  <text x="35" y="72" font-size="7" fill="#85B7EB" font-family="monospace">  status: 200</text>
+  <text x="35" y="82" font-size="7" fill="#5DCAA5" font-family="monospace">  data: [ ... ]</text>
+  <rect x="35" y="88" width="110" height="7" rx="2" fill="#0f2a4a"/>
+  <text x="35" y="86" font-size="7" fill="#378ADD" font-family="monospace">POST /api/auth</text>
+  <text x="35" y="100" font-size="7" fill="#85B7EB" font-family="monospace">  token: eyJhb...</text>
+  <rect x="35" y="106" width="110" height="7" rx="2" fill="#0f2a4a"/>
+  <text x="35" y="104" font-size="7" fill="#378ADD" font-family="monospace">DELETE /api/item/:id</text>
+  <circle cx="148" cy="29" r="9" fill="#185FA5"/>
+  <text x="148" y="33" text-anchor="middle" font-size="9" fill="#fff" font-weight="700">TS</text>
+</svg>

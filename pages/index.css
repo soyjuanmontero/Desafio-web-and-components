@@ -1,0 +1,273 @@
+*{
+    box-sizing: border-box;
+}
+body{margin: 0;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    background-color: #13171C;
+}
+.container__h-m{
+}
+
+/* main */
+.container__h-m__main{
+    padding: 70px 0 164px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+@media (min-width: 1024px) {
+  .container__h-m__main{
+    flex-direction: row;
+    justify-content: center;
+
+  }
+}
+
+.main__title{
+    margin: 0;
+    margin-bottom:54px;
+    font-size: 60px;
+    width: 288px;
+    height: 255px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width: 1024px) {
+  .main__title{
+   font-size: 96px;
+   width: 586px;
+   height: 192px;
+   line-height: 96px;
+   text-align: left;
+
+  }
+}
+
+.main__title-span-saludo{
+    color: #EEEEEE;
+    
+}
+.container-main__title-span-presentacion{
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width: 1024px) {
+ .container-main__title-span-presentacion{
+   flex-direction: row;
+  }
+}
+.main__title-span-presentacion{
+    color: #00ADB5;
+}
+.main__container-img{
+    width: 219px;
+    height: 211px;
+}
+.main__container-img img{ 
+    width: 100%;
+    height: 100%;
+}
+@media (min-width: 1024px) {
+.main__container-img{
+    width: 353px;
+    height: 340px;
+}
+}
+
+
+/* servicios*/
+.container__card{
+ display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 77px 0 107px;
+
+    justify-content: center;
+}
+@media (min-width: 1024px) {
+.container__card{
+   flex-direction: row;
+   gap: 44.5px;
+   padding: 104px 0 65px;
+}
+}
+
+.servicios__ver-mas{
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    padding-bottom: 55px;
+}
+
+@media (min-width: 1024px) {
+    .servicios__ver-mas{
+padding-bottom: 86px;
+}
+}
+.servicios__ver-mas__img{
+    width: 24px;
+    height: 24px;
+    
+}
+
+.servicios__ver-mas__parrafo{
+  color: #EEEEEE;
+    
+}
+
+/* section sobre-mi */
+.sobre-mi{
+    background-color: #192130;
+    padding: 71px 45px 112px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+@media (min-width: 1024px) {
+    .sobre-mi{
+flex-direction: row;
+justify-content: center;
+gap: 177px;
+padding: 0;
+height: 935px;
+}}
+.sobre-mi__container-content{
+    text-align: center;
+ 
+
+}
+@media (min-width: 1024px) {
+    .sobre-mi__container-content{
+width: 389px;
+}}
+
+.sobre-mi__content-title{
+    font-size: 42px;
+   
+}
+@media (min-width: 1024px) {
+    .sobre-mi__content-title{
+font-size: 64px;
+
+}}
+
+.sobre-mi__content-parrafo{
+    margin-top: 5px;
+    text-align: justify;
+
+}
+@media (min-width: 1024px) {
+    .sobre-mi__content-parrafo{
+margin-top: 0;
+    }}
+
+
+.sobre-mi__Container-img{
+    margin-top: 38px;
+    width: 295px;
+    height: 241px;
+}
+@media (min-width: 1024px) {
+    .sobre-mi__container-img{
+width: 623px;
+height: 415px;
+    }}
+.sobre-mi__Container-img img{
+    width: 100%;
+    height: 100%;
+}
+
+/* section contacto
+.section-contacto{
+    width: 313px;
+    margin: 0 auto;
+    padding: 39px 0 190px;
+    
+}
+@media (min-width: 1024px) {
+    .section-contacto{
+        display: flex;
+        justify-content: space-around;
+
+        padding: 274px 0 250px;
+        
+        margin: 0;
+        width: initial;
+        height: 1024px;
+
+    }}
+.contacto{}
+@media (min-width: 1024px) {
+    .contacto{
+        
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 317px 1fr;
+gap: 24px;
+justify-content: center;
+align-items: center;
+
+
+    }}
+
+.contacto_title{
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 39px;
+
+}
+@media (min-width: 1024px) {
+    .contacto_title{
+font-size: 64px;
+
+
+
+    }}
+.contacto_textarea{
+    grid-column:1/ span 2;
+  
+}
+.label{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.input, .textarea{
+    border-radius: 16px;
+    color: #EEEEEE80;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 0;
+    height: 59px;
+    background-color: #393E4680;
+    margin-bottom: 30px;
+}
+@media (min-width: 1024px) {
+    .input, .textarea{
+margin-bottom: 0;
+
+
+    }}
+
+.textarea{
+    resize: none;
+    width: 313px;
+    height: 280px;
+} */
+
+/* footer */
+.container__footer{
+    
+}

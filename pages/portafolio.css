@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+}
+body{margin: 0;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+}
+.container__h-m{
+    background-color: #13171C;
+}
+
+/* main */
+.container__h-m__main{
+    padding: 70px 0 164px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+@media (min-width: 1024px) {
+  .container__h-m__main{
+    flex-direction: row;
+    justify-content: center;
+
+  }
+}
+
+.main__title{
+    margin: 0;
+    margin-bottom:54px;
+    font-size: 60px;
+    width: 288px;
+    height: 255px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width: 1024px) {
+  .main__title{
+   font-size: 96px;
+   width: 586px;
+   height: 192px;
+   line-height: 96px;
+   text-align: left;
+
+  }
+}
+
+.main__title-span-saludo{
+    color: #EEEEEE;
+    
+}
+.container-main__title-span-presentacion{
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width: 1024px) {
+ .container-main__title-span-presentacion{
+   flex-direction: row;
+  }
+}
+.main__title-span-presentacion{
+    color: #00ADB5;
+}
+.main__container-img{
+    width: 219px;
+    height: 211px;
+}
+.main__container-img img{ 
+    width: 100%;
+    height: 100%;
+}
+@media (min-width: 1024px) {
+.main__container-img{
+    width: 353px;
+    height: 340px;
+}
+}
+
+
+/* servicios*/
+.container__card{
+ display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 77px 0 107px;
+
+    justify-content: center;
+}
+@media (min-width: 1024px) {
+.container__card{
+   flex-direction: row;
+   gap: 44.5px;
+   padding: 104px 0 65px;
+}
+}
+
+.servicios__ver-mas{
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    padding-bottom: 55px;
+}
+
+@media (min-width: 1024px) {
+    .servicios__ver-mas{
+padding-bottom: 86px;
+}
+}
+.servicios__ver-mas__img{
+    width: 24px;
+    height: 24px;
+    
+}
+
+.servicios__ver-mas__parrafo{
+  color: #EEEEEE;
+    
+}
+
+/* footer */
+.container__footer{
+    
+}
